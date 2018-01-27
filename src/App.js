@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles';
 import './App.css';
+import 'typeface-roboto';
 import Routes from './components/Routes'
 import Reboot from 'material-ui/Reboot';
 
@@ -13,6 +14,10 @@ const theme = createMuiTheme({
       dark: '#00396f',
     }
   },
+  typography: {
+    fontFamily:
+    'Roboto,sans-serif',
+  }
 });
 
 class App extends Component {

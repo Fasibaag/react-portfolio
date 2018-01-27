@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
 import {Route} from 'react-router-dom';
 import Grid from 'material-ui/Grid';
+import Nav from './Nav'
 
 const routes = [
   {
     path: '/',
-    navbar: () => <div> navbar </div>,
+    navbar: () => <Nav/>,
     footer: () => <div> footer </div>
   },
   {
