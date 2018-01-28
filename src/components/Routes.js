@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Route} from 'react-router-dom';
 import Grid from 'material-ui/Grid';
 import Nav from './Nav'
+import Landing from './Landing'
 
 const routes = [
   {
@@ -12,7 +13,7 @@ const routes = [
   {
     path: '/',
     exact: true,
-    main: () => <div> landing </div>
+    main: () => <Landing/>
   },
 ];
 

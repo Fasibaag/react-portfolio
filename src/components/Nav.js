@@ -5,11 +5,10 @@ import AppBar from 'material-ui/AppBar';
 import Toolbar from 'material-ui/Toolbar';
 import Typography from 'material-ui/Typography';
 import Button from 'material-ui/Button';
-import IconButton from 'material-ui/IconButton';
 import CloudQueue from 'material-ui-icons/CloudQueue';
 import { withRouter } from 'react-router-dom'
 
-const styles = {
+const styles = theme => ({
   root: {
     width: '100%'
   },
@@ -20,11 +19,10 @@ const styles = {
     marginLeft: -5,
     marginRight: 20,
   }
-};
+});
 
 const Nav = (props) => {
   const { classes } = props;
-  console.log(props);
   return (
     <div className={classes.root}>
       <AppBar position="static">
@@ -45,6 +43,7 @@ const Nav = (props) => {
 
 Nav.propTypes = {
   classes: PropTypes.object.isRequired,
+  theme: PropTypes.object.isRequired,
 };
 
-export default withRouter(withStyles(styles)(Nav));
+export default withRouter(withStyles(styles, { withTheme: true })(Nav));
