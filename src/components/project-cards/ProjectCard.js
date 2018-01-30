@@ -1,13 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
-import Card, { CardActions, CardContent, CardMedia } from 'material-ui/Card';
+import Card, { CardActions, CardContent } from 'material-ui/Card';
 import Button from 'material-ui/Button';
 import Typography from 'material-ui/Typography';
 
 const styles = {
   card: {
-    maxWidth: 1000,
+    maxWidth: 500,
+    width: '100%'
   },
 };
 
@@ -16,14 +17,9 @@ function ProjectCard(props) {
   return (
     <div>
       <Card className={classes.card}>
-        <CardMedia
-          className={classes.media}
-          image={require(`../assets/logo-trans.png`)}
-          title="Contemplative Reptile"
-        />
         <CardContent>
           <Typography type="headline" component="h2">
-            LOOR
+            LOOR.life
           </Typography>
           <Typography component="p">
             This application connects businesses with the community around them by posting offers in return for original content on instagram. <br />

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {withStyles} from 'material-ui/styles';
 import {withRouter} from 'react-router-dom';
-import ProjectCard from './ProjectCard';
+import ProjectCard from './project-cards/ProjectCard';
 
 const styles = theme => ({
   root: {

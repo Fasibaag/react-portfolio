@@ -1,19 +1,26 @@
 import React, {Component} from 'react';
 import {Route} from 'react-router-dom';
 import Grid from 'material-ui/Grid';
-import Nav from './Nav'
-import Landing from './Landing'
+import Nav from './Nav';
+import Landing from './Landing';
+import Footer from './Footer';
+import RecentWork from './RecentWork';
 
 const routes = [
   {
     path: '/',
     navbar: () => <Nav/>,
-    footer: () => <div> footer </div>
+    footer: () => <Footer/>
   },
   {
     path: '/',
     exact: true,
     main: () => <Landing/>
+  },
+  {
+    path: '/projects',
+    exact: true,
+    main: () => <RecentWork/>
   },
 ];
 

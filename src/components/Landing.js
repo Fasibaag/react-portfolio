@@ -25,7 +25,7 @@ class Landing extends Component {
               Hey, I am a software developer currently residing in New Jersey.
             </Typography>
             <Typography type="subheading" gutterBottom>
-              I design, build, operate, and maintain full-stack web applications, but most of all, I am a problem solver
+              I design, build, operate, and maintain full-stack web applications, but most of all, I am a problem solver.
             </Typography>
             <Typography type="subheading" paragraph gutterBottom>I primarily work with React.js, Node.js, Express and
               MongoDB and many others but picking up
@@ -39,7 +39,7 @@ class Landing extends Component {
           </Grid>
           <Grid item>
             <Typography type="display2" gutterBottom>
-              Recent Projects
+              Recent Work
             </Typography>
           </Grid>
           <Grid item>
