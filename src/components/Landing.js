@@ -6,6 +6,7 @@ import {withStyles} from 'material-ui/styles';
 import {withRouter} from 'react-router-dom';
 import PropTypes from 'prop-types';
 import RecentWork from './RecentWork';
+import Skills from './Skills';
 
 const styles = theme => ({
   root: {
@@ -44,6 +45,14 @@ class Landing extends Component {
           </Grid>
           <Grid item>
             <RecentWork/>
+          </Grid>
+          <Grid item>
+            <Typography type="display2" gutterBottom>
+              Skills
+            </Typography>
+          </Grid>
+          <Grid item>
+            <Skills/>
           </Grid>
         </Grid>
       </div>

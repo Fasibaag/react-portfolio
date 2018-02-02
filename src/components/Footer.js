@@ -43,6 +43,7 @@ class Footer extends Component {
                   <Typography paragraph className={classes.Typography}>
                     This website was made with React.js + Material-UI components.
                   </Typography>
+                  <a href="https://github.com/zjacek12/react-portfolio">Source Code</a>
                 </Grid>
               </Grid>
             </Grid>
