@@ -30,7 +30,7 @@ class Landing extends Component {
       <div className={classes.root}>
         <Grid container spacing={24} direction="column" justify="center" alignItems="center">
           <Grid item>
-            <img src={require(`../assets/adi.jpg`)} className={classes.img}/>
+            <img src={require(`../assets/adi.jpg`)} className={classes.img} alt="Jacek Zarski"/>
           </Grid>
           <Grid item>
             <Typography type="display1" gutterBottom>

@@ -49,7 +49,7 @@ class Footer extends Component {
             <Grid item xs={4}>
               <Grid container direction="column">
                 <Grid item>
-                  <Typography type="header" className={classes.Typography}>
+                  <Typography type="headline" className={classes.Typography}>
                     Social Links
                   </Typography>
                 </Grid>
@@ -79,7 +79,7 @@ class Footer extends Component {
                   </div>
                 </Grid>
                 <Grid item>
-                  <Typography type="header" className={classes.Typography}>
+                  <Typography type="headline" className={classes.Typography}>
                     Contact
                   </Typography>
                 </Grid>

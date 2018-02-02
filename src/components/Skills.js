@@ -39,8 +39,8 @@ class Skills extends React.Component {
       { key: 15, label: 'Leadership' },
       { key: 16, label: 'Communication' },
       { key: 17, label: 'Web Development' },
-      { key: 15, label: 'Debugging' },
-      { key: 15, label: 'Data Structures' },
+      { key: 18, label: 'Debugging' },
+      { key: 19, label: 'Data Structures' },
     ],
   };
 

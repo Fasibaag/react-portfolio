@@ -11,7 +11,7 @@ class Projects extends Component {
 
   render() {
     return (
-      <Grid container spacing={48} alignItems='center' justify='center' alignContent='center' direction="column">
+      <Grid container spacing={24} alignItems='center' justify='center' alignContent='center' direction="column">
         <Grid item>
           <Typography type="display2" gutterBottom>
             Projects

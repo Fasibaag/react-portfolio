@@ -16,10 +16,10 @@ class RecentWork extends Component {
   render() {
     return (
       <Grid container alignItems='center' spacing={24} alignContent='center' justify='center' direction='row'>
-        <Grid item>
+        <Grid item xs={12}>
           <ProjectCard/>
         </Grid>
-        <Grid item>
+        <Grid item xs={12}>
           <CurrentProjectCard/>
         </Grid>
       </Grid>
