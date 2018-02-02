@@ -33,7 +33,6 @@ const Nav = (props) => {
           </Typography>
           <Button onTouchTap={() => props.history.push('/')} color="inherit">About</Button>
           <Button onTouchTap={() => props.history.push('/projects')} color="inherit">Projects</Button>
-          <Button onTouchTap={() => props.history.push('/contact')} color="inherit">Contact</Button>
           <Button href="https://github.com/zjacek12" color="inherit">Github</Button>
         </Toolbar>
       </AppBar>

@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import {withStyles} from 'material-ui/styles';
 import {withRouter} from 'react-router-dom';
 import ProjectCard from './project-cards/ProjectCard';
+import CurrentProjectCard from './project-cards/CurrentProjectCard';
+import Grid from 'material-ui/Grid';
 
 const styles = theme => ({
   root: {
@@ -13,7 +15,14 @@ const styles = theme => ({
 class RecentWork extends Component {
   render() {
     return (
-      <ProjectCard/>
+      <Grid container alignItems='center' spacing={24} alignContent='center' justify='center' direction='row'>
+        <Grid item>
+          <ProjectCard/>
+        </Grid>
+        <Grid item>
+          <CurrentProjectCard/>
+        </Grid>
+      </Grid>
     );
   }
 }

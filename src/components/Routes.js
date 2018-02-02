@@ -4,7 +4,7 @@ import Grid from 'material-ui/Grid';
 import Nav from './Nav';
 import Landing from './Landing';
 import Footer from './Footer';
-import RecentWork from './RecentWork';
+import Projects from './Projects';
 
 const routes = [
   {
@@ -20,7 +20,7 @@ const routes = [
   {
     path: '/projects',
     exact: true,
-    main: () => <RecentWork/>
+    main: () => <Projects/>
   },
 ];
 

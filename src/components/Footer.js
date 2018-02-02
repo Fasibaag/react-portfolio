@@ -30,9 +30,7 @@ class Footer extends Component {
                   <Typography type='display1' className={classes.Typography}>
                     Jacek Zarski
                   </Typography>
-                  <a href="mailto:jacek.zarski@rutgers.edu" className={classes.Typography}>
-                    jacek.zarski@rutgers.edu
-                  </a>
+
                 </Grid>
                 <Grid item>
                   <Typography paragraph className={classes.Typography}>
@@ -79,6 +77,19 @@ class Footer extends Component {
                       </i>
                     </a>
                   </div>
+                </Grid>
+                <Grid item>
+                  <Typography type="header" className={classes.Typography}>
+                    Contact
+                  </Typography>
+                </Grid>
+                <Grid item>
+                  <a href="mailto:jacek.zarski@rutgers.edu" className={classes.Typography}>
+                    jacek.zarski@rutgers.edu
+                  </a>
+                </Grid>
+                <Grid item>
+                  <a href="tel:+16094770250">609-477-0250</a>
                 </Grid>
               </Grid>
             </Grid>

@@ -12,6 +12,14 @@ const styles = theme => ({
   root: {
     width: '100%',
     marginTop: '100px'
+  },
+  img: {
+    maxWidth: '200px',
+    width: '100%',
+    borderRadius: '50%',
+    borderStyle: 'solid',
+    borderWidth: '5px',
+    borderColor: theme.palette.primary.main
   }
 });
 
@@ -21,6 +29,9 @@ class Landing extends Component {
     return (
       <div className={classes.root}>
         <Grid container spacing={24} direction="column" justify="center" alignItems="center">
+          <Grid item>
+            <img src={require(`../assets/adi.jpg`)} className={classes.img}/>
+          </Grid>
           <Grid item>
             <Typography type="display1" gutterBottom>
               Hey, I am a software developer currently residing in New Jersey.
@@ -45,6 +56,11 @@ class Landing extends Component {
           </Grid>
           <Grid item>
             <RecentWork/>
+            <br />
+            <br />
+            <Divider light/>
+            <br />
+            <br />
           </Grid>
           <Grid item>
             <Typography type="display2" gutterBottom>
@@ -53,6 +69,11 @@ class Landing extends Component {
           </Grid>
           <Grid item>
             <Skills/>
+            <br />
+            <br />
+            <Divider light/>
+            <br />
+            <br />
           </Grid>
         </Grid>
       </div>
