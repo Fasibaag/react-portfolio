@@ -33,13 +33,13 @@ class Landing extends Component {
             <img src={require(`../assets/adi.jpg`)} className={classes.img} alt="Jacek Zarski"/>
           </Grid>
           <Grid item>
-            <Typography type="display1" gutterBottom>
+            <Typography align="center" type="display1" gutterBottom>
               Hey, I am a software developer currently residing in New Jersey.
             </Typography>
-            <Typography type="subheading" gutterBottom>
+            <Typography align="center" type="subheading" gutterBottom>
               I design, build, operate, and maintain full-stack web applications, but most of all, I am a problem solver.
             </Typography>
-            <Typography type="subheading" paragraph gutterBottom>I primarily work with React.js, Node.js, Express and
+            <Typography align="center" type="subheading" paragraph gutterBottom>I primarily work with React.js, Node.js, Express and
               MongoDB and many others but picking up
               new frameworks and languages is not a problem.
             </Typography>
