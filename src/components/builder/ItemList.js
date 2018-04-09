@@ -12,7 +12,6 @@ const styles = theme => ({
     // maxWidth: 360,
     maxHeight: 400,
     overflowY: 'scroll',
-    background: theme.palette.background.paper,
   },
 });
 

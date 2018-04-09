@@ -25,7 +25,6 @@ const styles = theme => ({
     flexGrow: 1,
     width: '100%',
     marginTop: theme.spacing.unit,
-    backgroundColor: theme.palette.background.paper,
   },
 });
 
