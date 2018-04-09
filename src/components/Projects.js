@@ -3,6 +3,7 @@ import Grid from 'material-ui/Grid';
 import Typography from 'material-ui/Typography';
 import RecentWork from './RecentWork';
 import Button from 'material-ui/Button';
+import Slide from 'react-reveal/Slide';
 
 class Projects extends Component {
   constructor(props) {
@@ -14,22 +15,30 @@ class Projects extends Component {
     return (
       <Grid container spacing={24} alignItems='center' justify='center' alignContent='center' direction="column">
         <Grid item>
-          <Typography type="display2" gutterBottom>
-            Projects
-          </Typography>
+          <Slide left>
+            <Typography type="display2" gutterBottom>
+              Projects
+            </Typography>
+          </Slide>
         </Grid>
         <Grid item>
-          <RecentWork/>
+          <Slide left>
+            <RecentWork/>
+          </Slide>
         </Grid>
         <Grid item>
-          <Typography type="headline" align="center">
-            Check out more of my projects on Github!
-          </Typography>
+          <Slide left>
+            <Typography type="headline" align="center">
+              Check out more of my projects on Github!
+            </Typography>
+          </Slide>
         </Grid>
         <Grid item>
-          <Button href="https://github.com/zjacek12" color="primary" raised>
-            Github
-          </Button>
+          <Slide left>
+            <Button href="https://github.com/zjacek12" color="primary" raised>
+              Github
+            </Button>
+          </Slide>
         </Grid>
       </Grid>
     );

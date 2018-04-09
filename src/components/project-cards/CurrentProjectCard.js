@@ -4,6 +4,8 @@ import {withStyles} from 'material-ui/styles';
 import Card, {CardActions, CardContent} from 'material-ui/Card';
 import Typography from 'material-ui/Typography';
 import Grid from 'material-ui/Grid';
+import Button from 'material-ui/Button';
+import {withRouter} from 'react-router-dom';
 
 const styles = {
   card: {
@@ -28,9 +30,7 @@ function ProjectCard(props) {
             </Typography>
           </CardContent>
           <CardActions>
-            <Typography component="p">
-              This website is currently in development.
-            </Typography>
+            <Button onTouchTap={() => props.history.push('/projects/boat_builder')} color="inherit">Check it out!</Button>
           </CardActions>
         </Card>
       </Grid>
@@ -42,4 +42,4 @@ ProjectCard.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(ProjectCard);
+export default withRouter(withStyles(styles)(ProjectCard));
